@@ -1,9 +1,26 @@
 aid: medarrive
 name: MedArrive
-description: 'MedArrive is a company surfaced as a portfolio company of kleiner-perkins and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'MedArrive is a healthcare technology company that provides a logistics
+  and workforce platform for in-home care delivery. Its software gives health systems
+  and in-home care providers smart scheduling, real-time provider routing, automated
+  re-routing and patient reminders, and a live command-center dashboard for tracking
+  every provider and visit, alongside a provider mobile app for field teams. The
+  HIPAA-compliant platform is designed to reduce windshield time, cut scheduling
+  effort, and increase daily visit capacity so care teams spend more time with
+  patients and less on logistics. MedArrive is backed by Kleiner Perkins.'
 url: https://raw.githubusercontent.com/api-evangelist/medarrive/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6871423210ef2e88b5b9d7e6/6967df35ae9b12f2ab7da80b_Copy%20of%20medarrive%20logo%20mark%20full%20color%20rgb%201200px%40144ppi%20(2).png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +29,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Home Care
+- Care Delivery
+- Scheduling
+- Logistics
+- Routing
+- HIPAA
+- Digital Health
 apis: []
+common:
+- type: DomainSecurity
+  url: security/medarrive-domain-security.yml
+- type: LLMsTxt
+  url: llms/medarrive-llms.txt
+- type: Website
+  url: https://www.medarrive.com
+- type: Login
+  url: https://app.medarrive.com/
+- type: SignUp
+  url: https://www.medarrive.com/request-demo
+- type: PrivacyPolicy
+  url: https://www.medarrive.com/privacy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
