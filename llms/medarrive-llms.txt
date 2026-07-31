@@ -1,0 +1,16 @@
+# MedArrive
+
+> MedArrive is a healthcare technology company providing a logistics and workforce platform for in-home care delivery. Health systems and in-home care providers use it for smart scheduling, real-time provider routing, automated re-routing and patient reminders, a live command-center dashboard, and a provider mobile app. The platform is HIPAA-compliant and is backed by Kleiner Perkins. No public developer API is currently published.
+
+## Company
+- [Website](https://www.medarrive.com): Product overview for health systems and in-home care providers
+- [Sign in](https://app.medarrive.com/): MedArrive application login
+- [Request a demo](https://www.medarrive.com/request-demo): Demo request form
+- [Privacy Policy](https://www.medarrive.com/privacy): Privacy policy
+
+## Artifacts
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/medarrive/refs/heads/main/security/medarrive-domain-security.yml): Probed TLS/HSTS/DNS posture for medarrive.com
+
+## Notes
+- No public API, developer portal, API reference, SDKs, OpenAPI, or webhook surface was found at the time of enrichment.
+- The MedArrive product is delivered as a hosted SaaS application (app.medarrive.com) accessed via demo request and login.
