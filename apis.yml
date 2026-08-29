@@ -9,6 +9,17 @@ description: 'MedArrive is a healthcare technology company that provides a logis
   effort, and increase daily visit capacity so care teams spend more time with
   patients and less on logistics. MedArrive is backed by Kleiner Perkins.'
 url: https://raw.githubusercontent.com/api-evangelist/medarrive/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
